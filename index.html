@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p>Rock Paper Scissorsgit</p>
+</header>
+    <h1>Rock Paper Scissors</h1>
+</header>
+<main>
+<div id="game">
+<div class="choice">
+<button class="choice" data-choice="rock">Rock</button>
+<button class="choice" data-choice="paper">Paper</button>
+<button class="choice" data-choice="scissors">Scissors</button>
+</div>
+<div class="result">
+<p id="message">Pick your play</p>
+<p>Player 1:<span id="player1-score">0</span></p>
+<p>Player 2:<span id="player2-score">0</span></p>
+</div>
+<button id="reset">Restart game</button>
+</div>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
